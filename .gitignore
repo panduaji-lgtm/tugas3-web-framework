@@ -1,0 +1,17 @@
+# Dependensi / Folder Modul Node.js
+node_modules/
+
+# File Variabel Lingkungan Rahasia (Sensitif)
+.env
+.env.local
+.env.*.local
+
+# Hasil Compile / Build TypeScript
+dist/
+build/
+
+# Log dan File Cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
